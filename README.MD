@@ -1,0 +1,1 @@
+example project integrating an Azure Function written in Python.
