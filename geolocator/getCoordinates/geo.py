@@ -7,5 +7,5 @@ def getCoordinates(spot):
         location = geolocator.geocode(spot)
         return spot, location.latitude, location.longitude
     except:
-        return 'Spot not found!'
+        return -1
    
